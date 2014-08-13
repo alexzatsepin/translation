@@ -30,4 +30,12 @@ public class Word {
     public void setText(String mText) {
         this.mText = mText;
     }
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mTranslation='" + mTranslation + '\'' +
+                ", mText='" + mText + '\'' +
+                '}';
+    }
 }

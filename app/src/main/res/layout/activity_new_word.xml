@@ -6,13 +6,18 @@
 
     <EditText
         android:id="@+id/word"
-        android:hint="Type word"
+        android:hint="Type russian word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button android:id="@+id/done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Done"/>
+        android:text="Translate"/>
+
+    <Button android:id="@+id/show_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show all words"/>
 
 </LinearLayout>

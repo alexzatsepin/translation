@@ -16,7 +16,7 @@ public class TranslationSqliteHelper extends SQLiteOpenHelper {
     private static final int DB_VERSION = 1;
     private static final String CREATE_DB_SQL = "create table "
             + TABLE_WORDS + "(" + COLUMN_ID + " integer primary key autoincrement, "
-            + COLUMN_TEXT + " text not null, "
+            + COLUMN_TEXT + " text not null unique, "
             + COLUMN_TRANSLATION + " text not null);";
 
     public TranslationSqliteHelper(Context context) {

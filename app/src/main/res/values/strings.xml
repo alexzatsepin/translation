@@ -4,5 +4,6 @@
     <string name="app_name">MyDictionary</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="title_activity_all_words">AllWordsActivity</string>
+    <string name="word_added">Word has been added in a dictionary</string>
 </resources>
